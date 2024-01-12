@@ -12,4 +12,5 @@ alias sol="solana"
 alias spl="spl-token"
 alias vim="vim -N -u $XDG_CONFIG_HOME/vim/vimrc"
 alias nvim="nvim -N -u $XDG_CONFIG_HOME/nvim/init.lua"
-
+alias es="envkey-source"
+alias ek="envkey"
