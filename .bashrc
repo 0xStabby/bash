@@ -135,10 +135,6 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-. "$HOME/.cargo/env"
-
-
-[[ -s "$XDG_CONFIG_HOME/.gvm/scripts/gvm" ]] && source "$XDG_CONFIG_HOME/.gvm/scripts/gvm"
 
 if [ -f $XDG_CONFIG_HOME/bash/.bash_aliases ]; then
   . $XDG_CONFIG_HOME/bash/.bash_aliases
